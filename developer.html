@@ -1,65 +1,66 @@
 ---
 layout: page
 id: features
-title: "Sandstorm Developer Features"
+title: "功能特点"
 ---
 
 <header>
-  <h1>Features</h1>
+  <h1>功能特点</h1>
   <div>
-    <nav>
-      <a href="/features">For Users</a>
-      <a href="/business">For Organizations</a>
-      <a href="/developer" class="current">For Developers</a>
-    </nav>
+      <nav>
+        <a href="/features">个人用户</a>
+        <a href="/business">企业用户</a>
+        <a href="/developer" class="current">开发者</a>
+      </nav>
   </div>
 </header>
 
-<span class="start"><a href="https://docs.sandstorm.io/en/latest/developing/">See Developer Hub</a></span>
+<span class="start"><a href="https://docs.sandstorm.io/en/latest/developing/">前往开发者中心</a></span>
 
 <section id="developer">
-  <h2>Developer Features</h2>
-  <h3>Ship your code as a Sandstorm app package and your users run the service.</h3>
+  <h2>适用于开发者的功能特点</h2>
+  <h3>将您的程序打包成</strong>沙塔</strong>应用，令更多用户受惠！</h3>
   <ul id="dev">
 
     <li class="linux">
-      <h3><strong>Any Linux stack</strong></h3>
-      <p>Sandstorm apps can be written using any tech stack that runs on Linux. Sandstorm apps have been written in PHP, Python, Node.js, Ruby, Java, Go, C++, Rust, and more.</p>
+      <h3><strong>“X是世界上最好的语言”</strong></h3>
+      <p>类似这样的争论可以休止了。只要能在Linux系统运行的程序，都可以成为</strong>沙塔</strong>的应用。
+      </strong>沙塔</strong>的应用可以是PHP，Python，Node.js，Ruby，Java，Go，C++，Rust等等语言写成的。</p>
     <li class="runtime">
-      <h3><strong>Consistent runtime environment</strong></h3>
-      <p><strong>You don’t have to support a diverse set of operating systems.</strong>
-      <p>If your app works on your local development server, it will work on any Sandstorm server anywhere. Sandstorm packaging tools distribute your dependencies with your app.
+      <h3><strong>统一的运行环境</strong></h3>
+      <p><strong>不用再为各个操作系统作适配测试。</strong>
+      <p>如果您的应用在本地的测试服务器运行良好，请放心，它在别的服务器运行肯定也同样出色。您的应用所要的依赖项目，<strong>沙塔</strong>的打包工具会悉数齐备。</p>
     <li class="boilerplate">
-      <h3><strong>Avoid Boilerplate</strong></h3>
-      <p>Common app responsibilities like authentication, authorization, document management, scaling, backups, encryption, and more are handled automatically by the platform.
-      <p><strong>You don't have to deal with user management</strong>
-      <p>Sandstorm authenticates the user before the request even reach your server.
-      <p><strong>You don’t have to deal with sharing or access control</strong>
-      <p>Just define the permissions that apply to your app, and Sandstorm will annotate every request with permissions possessed by the user.
-
+      <h3><strong>告别琐碎的重复劳动</strong></h3>
+      <p>应用的“指定动作”，例如密码验证，权限管理，文件管理，规模化，备份，密码等等诸如此类的工作都可以交由平台自动完成。</p>
+      <p><strong>无需再处理用户管理</strong></p>
+      <p>甚至在请求到达服务器之前，<strong>沙塔</strong>已经开展鉴权工作了。</p>
+      <p><strong>无需再处理存取权限控制</strong>
+      <p>只要设置一次，以后用户每次的请求都由<strong>沙塔</strong>处理。</p>
     <li class="dev-ops">
-      <h3><strong>Dev not ops</strong></h3>
-      <p>Spend your time adding features, not fighting fires.
-      <p><strong>You don't have to run servers</strong>
-      <p>No carrying a pager. No worrying about securing user data. Just upload your spk to the App Market.
-      <p><strong>You don’t have to worry about backups or encryption</strong>
-      <p>Sandstorm does that for you.
-      <p><strong>You don't have to worry about scaling</strong>
-      <p>Since each instance of your app handles a single document, it need only run on a single machine, and Sandstorm will deal with orchestrating multiple instances.
-      <p><strong>You don’t have to support multiple “documents”</strong>
-      <p>Sandstorm will start a new instance of your app for each one.
+      <h3><strong>暂忘运维、注重开发</strong></h3>
+      <p>花更多的时间打造产品，而不是处理安装、依赖项等等繁枝细节。</p>
+      <p><strong>无需负责服务器管理</strong>
+      <p>宕机警报，安全管理，统统放一边吧。只要将打包好的spk文件上传到</strong>应用市场</strong>，便可以与更多用户会面了！</p>
+      <p><strong>无需担心备份或加密</strong>
+      <p>留给<strong>沙塔</strong>处理吧。</p>
+      <p><strong>无需操心规模化扩展</strong>
+      <p>因为应用的每个实例只需处理一个文档，所以只需要在单独的一个服务器中运行，规模化这种“小case”就让<strong>沙塔</strong>为您代劳吧</p>
+      <p><strong>无需处理不同的文档</strong>
+      <p><strong>沙塔</strong>将会直接新建一个实例。</p>
     <li class="integration">
-      <h3><strong>Enterprise integration</strong></h3>
-      <p><strong>You don’t have to implement “enterprise” features like audit logging, encryption, LDAP &amp; SAML integration, or compliance</strong>
-      <p>Sandstorm takes care of that for you.
+      <h3><strong>企业功能整合</strong></h3>
+      <p><strong>企业层面的功能繁复，但您的应用无需触及这些方面，例如登录日志审计，加密，LDAP，SAML，合规，等等繁文缛节。</strong>
+      <p>所有的所有都留给<strong>沙塔</strong>岂不美滋滋？</p>
     <li class="in-app">
-      <h3><strong>In-app Billing</strong></h3>
-      <p>[coming soon] <strong>You don't have to deal with payments</strong>
-      <p>Sandstorm implements in-app purchases and deposits the proceeds into your bank account.
+      <h3><strong>应用内购对账</strong></h3>
+      <p>[即将问世]<strong>记账催款收款对账……告别这些机械劳动吧！</strong>
+      <p><strong>沙塔</strong>会负责应用内购买的记账、收款、对账……对了，当然不会忘记向您的银行账户转账的！</p>
   </ul>
 
   <div class="action">
-      <li>You can package apps for the <a href="http://apps.sandstorm.io">App Market</a> today</li><a href="https://docs.sandstorm.io/en/latest/developing/">See Developer Hub</a>
+      <li>事不宜迟！马上打包上传到&nbsp;&nbsp;<a href="http://apps.sandstorm.io">应用市场</a> </li><br><br>
+      <li>还有别的疑问？<a href="https://docs.sandstorm.io/en/latest/developing/">前往开发者中心</a></li>
   </div>
 
 </section>

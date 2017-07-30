@@ -1,16 +1,16 @@
 ---
 layout: page
 id: features
-title: Sandstorm Features
+title: 功能特点
 ---
 
 <header>
-  <h1>Features</h1>
+  <h1>功能特点</h1>
   <div>
       <nav>
-        <a href="/features" class="current">For Users</a>
-        <a href="/business">For Organizations</a>
-        <a href="/developer">For Developers</a>
+        <a href="/features" class="current">个人用户</a>
+        <a href="/business">企业用户</a>
+        <a href="/developer">开发者</a>
       </nav>
   </div>
 </header>
@@ -35,106 +35,99 @@ var appCount = "Dozens of";
 })();
 </script>
 
-<span class="start"><a href="/get">Get Sandstorm</a></span>
+<span class="start"><a href="/get">获取<strong>沙塔</strong></a></span>
 
 <section id="core-features">
-  <h2>Core Features</h2>
+  <h2>核心功能</h2>
   <ul id="core">
 
       <li class="apps-growing">
-        <h3><strong><script type="text/javascript">document.write(appCount)</script> apps and growing</strong></h3>
-        <p>New apps are being added to the Sandstorm App Market every week covering a wide range of use cases.
-        <p>We have apps for document editing, chat, task management, file storage, email, music playing, code hosting, forums, games, and more. Check them out on the <a href="https://apps.sandstorm.io/">Sandstorm App Market</a>.
+        <h3><strong><script type="text/javascript">document.write(appCount)</script>+个应用</strong></h3>
+        <p>在沙塔的应用市场，一直有新的应用以崭新的面孔与大家会面。他们应付多种不同的工作，各有千秋。
+        <p>文档编辑，取时通讯，任务管理，文件共享，邮件客户端，音乐播放器，代码托管，论坛，游戏，不一而足……详细请前往
+          <a href="https://apps.sandstorm.io/">应用市场</a>查询应用列表。
 
       <li class="single-sign-on">
-        <h3><strong>Single Sign-on</strong></h3>
-        <p>
-          Once you sign into Sandstorm, all your apps know who you are. No need to sign in to each one individually and remember dozens of passwords.
-        </p>
+        <h3><strong>单点登入</strong></h3>
+        <p>您只需要登入一次，所physical machines or any private or public cloud.有应用都无需再次登入。不用再记录多个不同应用的密码。</p>
 
       <li class="unified-sharing">
-        <h3><strong>Unified sharing access control</strong></h3>
-        <p>
-          You can share any Sandstorm "grain" (such as a document or a chat room) with your friends or teammates using one common sharing interface.
-        </p>
+        <h3><strong>统一存取控制</strong></h3>
+        <p>与朋友共享沙塔中的任何一个“颗粒”，例如文件、聊天室等，只需要统一的一个简单接口。</p>
 
       <li class="powerbox">
-        <h3><strong>Connect apps with Powerbox</strong></h3>
-        <p>
-          Create a survey form that feeds into a spreadsheet, attach a document to a chat message, or give a scheduling app access to your calendar. All these interactions are handled through Sandstorm's "Powerbox" UI, which lets apps find each other and lets you grant permissions easily and securely.
+        <h3><strong>用Powerbox熔融不同的颗粒</strong></h3>
+        <p>创建一个调查问卷再让结果制作成电子表格，
+          在通讯过程中将文档发送给对方，
+          让行程安排应用读取行事历内容。
+          在沙塔的“Powerbox”中，这些颗粒之间的互动和谐得无法言表。
         </p>
   </ul>
 
 <section id="security-features">
-  <h2>Security Features</h2>
+  <h2>安全特性</h2>
     <ul id="security">
         <li class="protection">
-          <h3><strong>Protection against app bugs</strong></h3>
-          <p>
-            Sandstorm implements a wide range of measures designed to <a href="https://docs.sandstorm.io/en/latest/using/security-non-events/">protect against security bugs in apps</a>. Most bugs that would be serious security problems on other platforms either don't matter at all on Sandstorm or have drastically reduced impact.
+          <h3><strong>Bug斗之尊</strong></h3>
+          <p>沙塔全面地监控以确保<a href="https://docs.sandstorm.io/en/latest/using/security-non-events/">应用的安全隐患可受控制</a>。
+            其他平台中引起严重问题的bug，在沙塔中要么根本不会发作，要么实际影响甚微。
             <br>
             <br>
-            <a href="https://docs.sandstorm.io/en/latest/developing/security-practices/" target="_blank">Read our docs to learn how it works.</a>
+            <a href="https://docs.sandstorm.io/en/latest/developing/security-practices/" target="_blank">查阅工作原理</a>。
           </p>
 
         <li class="sandboxing">
-          <h3><strong>Sandboxing and confinement</strong></h3>
-          <p>
-            A Sandstorm app cannot talk to the rest of the world unless you give it permission. That means you can put sensitive secrets in any app and be rest-assured that your data is safe. It also means that apps cannot "phone home" to their developers in order to spy on you.
-          </p>
+          <h3><strong>沙盒和限制环境</strong></h3>
+          <p>未得到允许的情况下，，沙塔的应用无法与外界通讯。所以如果应用需要处理私密信息的话，您大可放心。而且，应用也无法与开发者联系，敏感的信息不会轻易曝光。</p>
 
         <li class="auditable">
-          <h3><strong>Auditable access</strong></h3>
-          <p>
-            You can always see who has access to your grains -- including people with whom you shared and other grains to which you connected it -- and you can revoke these connections at any time.
-          </p>
+          <h3><strong>访问审查</strong></h3>
+          <p>每个颗粒的使用日志都会清晰记录。包括曾经和谁分享过，和哪个颗粒一起分享，而且您可以随时取消分享。</p>
 
         <li class="authentic">
-          <h3><strong>Authentic apps</strong></h3>
-          <p>
-            When you install an app on Sandstorm, you can see exactly who created the app package, including such details as their verified Twitter and GitHub accounts, verified domain names, and their PGP key fingerprint.
-          </p>
+          <h3><strong>原版应用</strong></h3>
+          <p>在沙塔的应用市场中，应用的作者名称，源码地址，作者联系方式，真实的域名，已及电子签名都清楚列出。</p>
 
         <li class="automatic">
-          <h3><strong>Automatic, authentic updates</strong></h3>
-          <p>Just like your web browser, it's important to keep Sandstorm up-to-date. Self-hosted Sandstorm updates itself automatically in-place with no action needed by you. All updates are cryptographically signed and verified.</p>
+          <h3><strong>自动原生升级</strong></h3>
+          <p>与浏览器一样，沙塔版本越新越稳妥。用户自行部署的沙塔会自动更新，无需劳您大驾。所有的更新都使用经检验过的原版原生程序进行。</p>
     </ul>
   </section>
 
 <section id="more-features">
-  <h2>More</h2>
-  <h3>Here are even more features available in all versions of Sandstorm</h3>
+  <h2>更多细节</h2>
+  <h3><strong>沙塔</strong>的更多功能特性多不胜数：</h3>
   <ul id="more">
 
       <li class="tabbed">
-        <h3><strong>Tabbed UI</strong></h3>
-        <p>Quickly see and switch between your open grains.</p>
+        <h3><strong>标签式界面</strong></h3>
+        <p>在不同的沙粒中切换十分简单快捷</p>
 
       <li class="backups">
-        <h3><strong>Backups</strong></h3>
-        <p>You can download a .zip backup of any grain with one click. You can also automatically backup all your data to the cloud, encrypted.</p>
+        <h3><strong>备份</strong></h3>
+        <p>只需轻轻点击一下，就能将沙粒打包下载到本地保存。另外也可以设置沙粒自动加密备份在服务器上。</p>
 
       <li class="notifications">
-        <h3><strong>Notifications</strong></h3>
-        <p>Notifications from all apps are collected in one place, much like on your phone.</p>
+        <h3><strong>通知</strong></h3>
+        <p>不同的应用发出的推送通知，可以归整一起，与智能手机一样。</p>
 
       <li class="mentions">
-        <h3><strong>Mentions</strong></h3>
-        <p>Many apps, such as Wekan and Rocket.Chat, allow you to @-mention other users like you would on Twitter or GitHub. @-mentioning optionally notifies the target and shares with them.</p>
+        <h3><strong>圈人</strong></h3>
+        <p>不少的应用，例如WeKan和Rocket.Chat，可以让用户用“@”这个符号圈人，就像在微博和微信上一样提醒对方。</p>
 
       <li class="search">
-        <h3><strong>Search</strong></h3>
-        <p>Search across all your data from all apps in one place.</p>
+        <h3><strong>搜索</strong></h3>
+        <p>福尔摩斯有好多个放大镜，但在<strong>沙塔</strong>你只需要一个。单单一次搜索就能搜索不同应用创建的沙粒。</p>
 
       <li class="connected">
-        <h3><strong>Connected Identities</strong></h3>
-        <p>Connect your Sandstorm account to multiple external identities, such as Twitter or GitHub accounts, so that people can share with you using the identity they already know you by.</p>
+        <h3><strong>社交应用ID关联</strong></h3>
+        <p>让<strong>沙塔</strong>关联不同的社交ID，下次用另一个ID与客户交际应酬就不用再次寒暄了。</p>
 
   </ul>
 </section>
 
   <div class="action">
-    <li>See our features in action</li><a href="/get">Get Sandstorm</a>
+    <li>马上行动！</li><a href="/get">获取<strong>沙塔</strong></a>
   </div>
 
 </section>
